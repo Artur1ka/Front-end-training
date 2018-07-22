@@ -1,0 +1,28 @@
+h1 {
+	border: 3px dashed red;
+}
+.class1 {
+	border: 1px solid #008000;	
+}
+.white-space: nowrap;
+}
+.span1{
+	text-decoration: underline;	
+}
+.class2{
+	margin-top: 10px;
+	border-top: 1px dotted black;
+	border-left: 2px solid #0000FF;
+	border-bottom: 3px solid #008000;
+	border-right: 2px double red;
+}
+.p1{
+	font-family: cursive;	
+}
+.list {
+	list-style: square;	
+}
+.p2{
+	border: 1px solid #008000;
+	font-family: monospace;	
+}
