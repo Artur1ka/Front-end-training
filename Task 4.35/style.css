@@ -1,0 +1,23 @@
+.sprite{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.sprite li{
+	background-image: url(images/sprite.jpg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 39px;
+	height: 39px;
+	cursor: pointer;
+
+}
+.sprite .smile1 {
+	background-position: -81px 0px;
+}
+.sprite .smile2 {
+	background-position: -246px 0px;
+}
+.sprite .smile3 {
+	background-position: -327px -37px;
+}
