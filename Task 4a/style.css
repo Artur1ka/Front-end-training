@@ -1,0 +1,15 @@
+body {
+	width: auto;
+	height: auto;
+	padding: 50px 50px;
+	text-align: center;
+
+	
+
+	background-image: url(images/left-top.png), url(images/left-bottom.png), url(images/right-top.png), url(images/right-bottom.png),
+	url(images/left.png), url(images/right.png), url(images/top.png), url(images/bottom.png);
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-y, repeat-y, repeat-x, repeat-x; 
+	background-position: left top, left bottom, right top, right bottom, left, right, top, bottom;
+	
+
+}
