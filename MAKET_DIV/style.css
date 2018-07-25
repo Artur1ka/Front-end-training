@@ -1,5 +1,5 @@
 .wrapper {
-	width: 70%;
+	width: 95em;
 	margin: 0 auto;
 	background: url(images/foot.png) right repeat-y;
 }
@@ -11,31 +11,32 @@
 	text-align: center;
 	text-transform: uppercase;
 }
-/*боковое меню, вобще странно ведет себя при масштабировании*/
+
 aside {
 	float: left;
-	width: 15%;
+	width: 8em;
 	padding-right: 2%;
 	padding-left: 1%;
 	margin-right: 2%;
 	font-size: 1.5em;
 	background-color: #F0E68C;
 }
-/*бок контента*/
+
 section {
+	width: 50em;
 	margin-left: 2%;
-	font-size: 1.6em;
+	font-size: 1.8em;
 }
  .header2 {
 	text-align: center;
 	text-transform: uppercase;
 }
-article img {
+img {
 	float: left;
 	margin-right: 2%;
+	clear: bottom;
 }
-/*Не получается сделать так чтобы
-при масштабировании Footer оставался на месте, он постоянно прыгает*/
+
 footer {
 	padding-top: 1%;
 	padding-bottom: 1%;
