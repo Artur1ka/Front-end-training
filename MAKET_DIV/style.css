@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	background: url(images/foot.png) right repeat-y;
 }
-header {
+.header1 {
 	height: 10%;
 	padding-top: 0.2%;
 	font-size: 1em;
@@ -23,16 +23,16 @@ aside {
 }
 /*бок контента*/
 section {
-	/*margin-left: 20%;*/
-	font-size: 1.3em;
+	margin-left: 2%;
+	font-size: 1.6em;
 }
-section h3 {
+ .header2 {
 	text-align: center;
 	text-transform: uppercase;
 }
-section img {
+article img {
 	float: left;
-	margin-right: 1%;
+	margin-right: 2%;
 }
 /*Не получается сделать так чтобы
 при масштабировании Footer оставался на месте, он постоянно прыгает*/
